@@ -1,0 +1,29 @@
+{
+  "name": "xfetch",
+  "version": "1.0.0",
+  "description": "一个基于fetch的http请求库",
+  "scripts": {
+    "build": "tsc --build tsconfig.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zaoewang/xfetch.git"
+  },
+  "keywords": [
+    "fetch",
+    "request"
+  ],
+  "author": "九月",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zaoewang/xfetch/issues"
+  },
+  "homepage": "https://github.com/zaoewang/xfetch#readme",
+  "dependencies": {
+    "qs": "^6.11.1"
+  },
+  "devDependencies": {
+    "@types/qs": "^6.9.7"
+  },
+  "type": "module"
+}
